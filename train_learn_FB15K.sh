@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=1   python src/learn.py    --model MMLorentzKG \
+                                                --dataset FB15K_new \
+                                                --rank 400 \
+                                                --valid 5 \
+                                                --optimizer Adagrad \
+                                                --reg 2.5e-3 \
+                                                --learning_rate 0.01 \
+                                                --max_epochs 200 \
+                                                --batch_size 5000 \
+                                                --early_stopping 15 \
+                                                --fusion_dscp True \
+                                                --fusion_img True \
+                                                --modality_split True \
+                                                --rand_ratio 0.3
