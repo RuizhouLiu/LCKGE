@@ -8,7 +8,6 @@ import torch
 from models import KBCModel
 
 DATA_PATH = Path('/home/user/KnowledgeGraph/MoSE_MCL/data')
-# DATA_PATH = Path('/data/liuruizhou/KGE_datasets/data')
 
 class Dataset(object):
     def __init__(self, name: str, device='cpu'):
