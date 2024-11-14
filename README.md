@@ -10,3 +10,5 @@ https://huggingface.co/datasets/Ruizhou22/mmkg/blob/main/mmkg_data.zip
 1. Download the dataset and unzip it in project folder. 
 
 2. Modify the data path variable `DATA_PATH` in `LCKGE/src/datasets.py` file  with the dataset path
+
+3. Run `train_learn_FB15K-237.sh`, `train_learn_FB15K.sh` or `train_learn_WN9.sh` .sh files
